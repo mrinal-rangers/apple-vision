@@ -1,0 +1,382 @@
+
+@font-face {
+    font-family:myFont ;
+    src: url(bada.otf);
+}
+*{
+    margin:0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    /* font-family: SF Pro Display; */
+}
+html,
+body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    position: relative;
+    overflow: hidden;
+}
+
+
+#page{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+}
+
+#page>nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+
+    height: 7vh;
+    width: 50vw;
+    background-color: #000;
+    position: fixed;
+    top:0%;
+    left: 50%;
+    transform: translateX(-50%);
+    color:#fff;
+}
+
+#page>nav>button{
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: none;
+    background-color: #fff;
+}
+
+
+
+#page>video{
+    height: 100%;
+    width: 50%;
+    object-fit: cover;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#page-bottom{
+    height: 20%;
+    width: 25%;
+    position: absolute;
+    bottom:5%;
+    left:50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #6e6e73;
+}
+#page-bottom>h3{
+    font-size: 1.5rem;
+}
+#page-bottom>img{
+    margin-top: 1vh;
+    height: 40%;
+    width: 120%;
+}
+#page1{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #fff;
+}
+#page1>video,#page2>video,#page4>video,#page6>video{
+    position: relative;
+    top:0px;
+    width:120vw;
+    height: 120%;
+    object-fit: cover;
+    left:-20px;
+}
+#page2{
+    background-color: rgba(0, 0, 0, 0.5); 
+}
+
+#page1>h1,#page2>h1,#page4>h1,#page6>h1{
+    position: absolute;
+    width: 80%;
+    height: 30%;
+    font-size: 7vh;
+    color: #fff;
+    font-weight: 800;
+    bottom: 20%;
+    left:55%;
+    transform: translateX(-50%);
+    font-family: SF Pro Display;
+    white-space: nowrap;
+}
+
+#page2>h1{
+    font-size: 3 rem;
+    left:-10px;
+    color:#fff;
+    left:50%; 
+    top:60%;
+    transform: translateX(-50%);
+}
+
+#page3{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #fff;
+}
+
+#page3>img{
+    width:60%;
+    position: absolute;
+    left:50%; 
+    top:25%;
+    transform: translateX(-50%);
+}
+
+#page3-upper{
+    height: 25%;
+    width: 35%;
+    position: absolute;
+    z-index: 9;
+    left:50%; 
+    top:5%;
+    transform: translateX(-50%);
+}
+
+#page3-upper>img{
+    position: absolute;
+    height: 25%;
+    width: 60%;
+    left:50%;
+    transform: translateX(-50%);
+    top:5%;
+}
+
+#page3-upper-inner{
+    position: absolute;
+    height: 50%;
+    width: 100%;
+    bottom: 25%;
+    color: #fe681a;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px 0px;
+    font-weight: 500;
+}
+
+#div4{
+    position: absolute;
+    bottom:20%;
+    width: 60%;
+    left:50%;
+    transform: translateX(-50%);
+    color:#86868b;
+}
+#page3>button{
+    position: absolute;
+    border: 3px solid #1d1d1f;
+    color: #1d1d1f;
+    height:8vh;
+    width:30vw;
+    border-radius: 4vh;
+    left:50%;
+    transform: translateX(-50%);
+    font-size: 1.5rem;
+    top:75%;
+    background-color: transparent;
+}
+
+#page5{
+    display: flex;
+   position: relative;
+    top:100%;
+    height: 70vh;
+    background-color: #f5f5f7;
+}
+#left5{
+    height: 100%;
+    width: 50%;
+
+  
+}
+
+#left5>h3{
+position: relative;
+text-align: left;
+left:75%;
+transform: translateX(-50%);
+top:35%;
+font-size: 2rem;
+}
+#right5{
+    height: 100%;
+    width: 50%;
+}
+#right5>h3{
+    position: relative;
+    text-align: left;
+    left:40%;
+    transform: translateX(-50%);
+    top:30%;
+    font-size: 1.5rem;
+    color:#86868b;
+ }
+
+#right5>button{
+    font-family: myFont;
+    position: absolute;
+    bottom: 10%;
+    left:29%;
+    transform: translateX(70%);
+    background-color:#fe5a00;
+    font-size:1.5rem;
+    color:white;
+    border: none;
+    border-radius: 1.5rem;
+    height: 3rem;
+    width:20rem;
+}
+#page6>video{
+ height:120vh;
+}
+
+#page7{
+    position: relative;
+    height: 70vh;
+    width: 100vw;
+    background-color: #f5f5f7;
+    display: flex;
+    padding-top: 10vh;
+    align-items: center;
+    justify-self: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+#page7>h3{
+    font-size: 2rem;
+    margin-bottom: 2vh;
+}
+#page7>h1{
+    font-size: 4rem;
+    font-weight: 2000;
+    margin-bottom: 7vh; 
+}
+#page7>p{
+    font-size: 1.5rem;
+    width:50%;
+    color:#86868b;
+}
+#page8{
+    background-color: #f5f5f7;
+    width: 100vw;
+}
+#page9{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    height: 100vh;
+    width: 100vw;
+    background-color: #fff;
+}
+#left9{
+    height: 90%;
+    width: 45%;
+    position: relative;
+    top:10%;
+    left:1%;
+    background-color: aqua;
+}
+#right9{
+    height: 90%;
+    width: 40%;
+    position: relative;
+    top:10%;
+    right:3%;
+    background-color: #fe681a;
+}
+#left9>img{
+    height: 100%;
+    width: 100%;
+}
+#right9>img{
+    height: 100%;
+    width: 100%;
+}
+
+#page10{
+    position: relative;
+    height: 90vh;
+    width: 95vw;
+    top:12vh;
+    /* overflow: hidden; */
+    left:2.5%;
+    /* background-color: red; */
+    object-fit: cover;
+}
+#page10>video{
+    position: relative;
+    left:-1%;
+    height: 100%;
+    width: 100%;
+}
+#page11{
+    height: 100vh;
+    width: 100vw;
+}
+#page11>h2{
+    width:45%;
+    font-size: 1.3rem;
+    line-height: 1.3;
+    transform: translateX(-50%);
+    position: relative;
+    left:50%;
+    top:25%;
+    color:#86868b;
+
+}
+#page11>h2>span{
+    color:black;
+}
+#page11>img{
+    width:70%;
+    position: relative;
+    left:15%;
+    top:35%;
+}
+#page12{
+    height:57.5vh;
+    overflow: hidden;
+}
+#page12>button{
+    font-family: myFont;
+    position: absolute;
+    left:37%;
+    transform: translateX(70%);
+    transform: translateY(+670%);
+    background-color:#fe5a00;
+    font-size:1.5rem;
+    color:white;
+    border: none;
+    border-radius: 1.5rem;
+    height: 3rem;
+    width:20rem;
+}
+#page13{
+    height: 100vh;
+    background-color: #f5f5f7;
+}
+#page13>canvas{
+    position: relative;
+    max-width: 100vw;
+    max-height: 100vw;
+}
