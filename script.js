@@ -47,7 +47,7 @@ gsap.to("#page>video",{
 })
 
 gsap.to("#page",{
-    scroolTrigger:{
+    scrollTrigger:{
         trigger:'#page',
         start:'top top',
         end:'bottom top',
